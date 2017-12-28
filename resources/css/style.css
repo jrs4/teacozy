@@ -72,7 +72,7 @@ header{
 .menu{
   padding: 70px 0px;
   margin: 0 auto;
-  width: 1000px;
+  width: 1200px;
   display: flex;
   flex-flow: column wrap;
 }
@@ -86,8 +86,8 @@ header{
 .image{
   width: 300px;
   height: 200px;
-  background-size: contain;
-  margin: 0px 16px;
+  background-size: cover;
+  margin: 0px 25px;
 }
 
 .berryblitz .image{
@@ -149,8 +149,8 @@ header{
 
 /*Contacts*/
 .contacts{
-  margin: 70px auto;
-  width: 100%;
+  margin: 0 auto;
+  width: 1200px;
   height: 200px;
   display: flex;
   flex-flow: column wrap;
