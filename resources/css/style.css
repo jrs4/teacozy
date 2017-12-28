@@ -1,0 +1,162 @@
+/*generals*/
+
+body{
+  margin: 0 auto;
+  border: 0px;
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5{
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*Header*/
+header{
+  top: 0;
+  height: 69px;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.navheader li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.navheader a{
+  color: seashell;
+}
+
+/*Mission*/
+.mission{
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+}
+
+/*Menu*/
+.menu{
+  margin: 70px auto;
+  width: 1000px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.teas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image{
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  margin: 0px 16px;
+}
+
+.berryblitz .image{
+  background-image: url("../images/img-berryblitz.jpg");
+}
+
+.spicedrum .image{
+  background-image: url("../images/img-spiced-rum.jpg");
+}
+
+.donuts .image{
+  background-image: url("../images/img-donut.jpg");
+}
+
+.myrtleave .image{
+  background-image: url("../images/img-myrtle-ave.jpg");
+}
+
+.bedford .image{
+  background-image: url("../images/img-bedford-bizarre.jpg");
+}
+
+/*Locations*/
+.locations{
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+  margin: 70px auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.locations h2{
+  background-color: inherit;
+  margin: 15px;
+  padding: 0;
+}
+
+.all-locations{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationbox{
+  width: 300px;
+  margin: 0px 20px;
+  background-color: black;
+  opacity: 1;
+}
+
+.locationbox h3,
+.locationbox h4{
+  padding: 20px 0px;
+}
+
+/*Contacts*/
+.contacts{
+  margin: 70px auto;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+/*Footer*/
+footer{
+  margin: 20px;
+  text-align: left;
+}
